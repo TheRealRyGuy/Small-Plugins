@@ -1,0 +1,19 @@
+  name: Reports
+  main: us.ryguy.reports.Main
+  version: 0.1
+  commands:
+      reports:
+          description: Master command for modifying any data pertanent to the Reports plugin!
+          aliases: [reps]
+          permissions: reports.master;
+          usage: /reports [args]
+      chatreport:
+          description: Log a person's chat history when they break a rule in chat!
+          aliases: [crep]
+          permissions: reports.chatreport
+          usage: /chatreport [player] [optional reason]
+      report:
+          description: Report a hacker or rule breaker!
+          aliases: [rep]
+          permission: reports.report
+          usage: /report [player] [reason]

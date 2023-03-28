@@ -1,0 +1,11 @@
+name: Anti-CPS
+version: 1.0
+description: Takes experience away from a player whenever they break a block!
+author: RyGuy
+main: us.ryguy.anticps.Main
+commands:
+  anticps:
+    description: Central AntiCPS Command
+    aliases: [acps]
+    permission: anticps
+    usage: /anticps [arg0] [arg1]
